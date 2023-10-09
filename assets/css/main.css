@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #000000 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #000000;
 		}
 
 		select:focus::-ms-value {
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #000000;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(0, 0, 0, 0);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3244,16 +3244,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: hsl(257, 47%, 22%);
+			background-color: hsl(0, 0%, 0%);   
 		}
+		/* backgroud for intro to before get in touch	 */
 
 		.wrapper.style2 {
-			background-color: hsl(257, 47%, 22%);
+			background-color: hsl(0, 0%, 0%);
 			;
 		}
 
 		.wrapper.style2-alt {
-			background-color: hsl(257, 47%, 22%);
+			background-color: hsl(0, 0%, 0%);
 		}
 
 		.wrapper.style3 {
